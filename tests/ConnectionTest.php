@@ -11,6 +11,7 @@
 namespace Phergie\Irc\Tests;
 
 use Phergie\Irc\Connection;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Tests for \Phergie\Irc\Connection.
@@ -18,7 +19,7 @@ use Phergie\Irc\Connection;
  * @category Phergie
  * @package Phergie\Irc
  */
-class ConnectionTest extends \PHPUnit_Framework_TestCase
+class ConnectionTest extends TestCase
 {
     /**
      * Instance of the class being tested
@@ -30,7 +31,7 @@ class ConnectionTest extends \PHPUnit_Framework_TestCase
     /**
      * Instantiates the class being tested.
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->connection = new Connection;
     }

@@ -11,10 +11,7 @@
         "source": "https://github.com/phergie/phergie-irc-connection"
     },
     "require": {
-        "php": ">=7.0 || >=5.6"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.6"
+        "php": "^8.3"
     },
     "autoload": {
         "psr-4": {
@@ -25,5 +22,8 @@
         "psr-4": {
             "Phergie\\Irc\\Tests\\": "tests"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
     }
 }
